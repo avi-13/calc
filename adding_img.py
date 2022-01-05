@@ -21,10 +21,9 @@ i5 = Image.open('image/ragn.png')
 i5.thumbnail((550, 450))
 i6 = Image.open('image/thor.png')
 i6.thumbnail((550, 450))
-i7 = Image.open('image/loki.png')
+i7 = Image.open('image/tobey.png')
 i7.thumbnail((550, 450))
-i8 = Image.open('image/tobey.png')
-i8.thumbnail((550, 450))
+
 
 # open images to use with labels
 img1 = ImageTk.PhotoImage(i1)
@@ -34,9 +33,9 @@ img4 = ImageTk.PhotoImage(i4)
 img5 = ImageTk.PhotoImage(i5)
 img6 = ImageTk.PhotoImage(i6)
 img7 = ImageTk.PhotoImage(i7)
-img8 = ImageTk.PhotoImage(i8)
+
 # create list of images
-images = [img1, img2,img3, img4, img5,img6,img7,img8]
+images = [img1, img2,img3, img4, img5,img6,img7]
 # configure the image to the Label in frame
 i = 0
 image_label = Label(frame, image=images[i])
